@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: samewa/ultimate-cicd:11
+        image: samewa/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
